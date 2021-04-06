@@ -10,7 +10,7 @@ COPY . $SPRINGBOOT_HOME
 
 RUN ./mvnw install
 
-COPY /app/target/*.jar /app/app.jar
+RUN cp target/*.jar app.jar
 
 EXPOSE 8080
 
