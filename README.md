@@ -4,13 +4,13 @@ Build docker image for SpringBoot application.
 
 ## Build Image
 
-To build image run this command (__change the tag name with your preferred tag name__).
+To build image run this command (__change the tag name & version with your preferred tag name & version__).
 
 `$ docker build . -t myorganization/myimage:1.0.0`
 
 ## Running Container from Image
 
-To create a container from the image, run this command (__change the tag name with your preferred tag name__).
+To create a container from the image, run this command (__change the tag name & version with your preferred tag name & version__).
 
 `$ docker run -d -p 8080:8080 --name springboot-app myorganization/myimage:1.0.0`
 
