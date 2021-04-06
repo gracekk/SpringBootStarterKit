@@ -18,4 +18,4 @@ Then you can access the app from the browser with this url: `http://127.0.0.1:80
 
 ## Dockerhub image
 
-This repository is proven by running build in dockerhub, you can see the result [here](https://hub.docker.com/r/namikazebadri/springboot-app).
+This repository is proven by running build in dockerhub, you can see the result [here](https://hub.docker.com/r/namikazebadri/django-app).
